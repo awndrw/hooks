@@ -1,0 +1,54 @@
+{
+    "name": "@wiggindev/hooks",
+    "description": "Various hooks that I use in my projects",
+    "version": "0.1.0",
+    "author": {
+        "name": "Andrew Wiggin",
+        "email": "andrew@wiggin.dev",
+        "url": "https://wiggin.dev"
+    },
+    "type": "module",
+    "source": "src/index.ts",
+    "exports": {
+        "require": "./dist/index.cjs",
+        "default": "./dist/index.modern.js"
+    },
+    "main": "dist/index.cjs",
+    "module": "dist/index.module.js",
+    "unpkg": "dist/index.umd.js",
+    "types": "dist/types.d.ts",
+    "scripts": {
+        "prebuild": "rimraf dist",
+        "build": "microbundle",
+        "dev": "microbundle watch",
+        "postinstall": "husky install",
+        "prepack": "pinst --disable",
+        "postpack": "pinst --enable",
+        "lint": "tsc --noEmit && yarn eslint",
+        "format": "yarn eslint --fix && yarn prettier --write ."
+    },
+    "peerDependencies": {
+        "react": ">= 18"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.9",
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "husky": "^8.0.1",
+        "lint-staged": "^12.4.1",
+        "microbundle": "^0.15.0",
+        "pinst": "^3.0.0",
+        "prettier": "^2.6.2",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.6.4"
+    },
+    "packageManager": "yarn@3.2.1",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    }
+}
