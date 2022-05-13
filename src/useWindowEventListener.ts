@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEvent } from './useEvent';
-import { EventName, EventListener } from './types';
+import { EventName, EventListener } from './events';
 
 export const useWindowEventListener = <K extends EventName<WindowEventMap>>(
     eventName: K,

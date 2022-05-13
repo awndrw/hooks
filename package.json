@@ -1,7 +1,7 @@
 {
     "name": "@wiggindev/hooks",
     "description": "Various hooks that I use in my projects",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "author": {
         "name": "Andrew Wiggin",
         "email": "andrew@wiggin.dev",
@@ -16,7 +16,7 @@
     "main": "dist/index.cjs",
     "module": "dist/index.module.js",
     "unpkg": "dist/index.umd.js",
-    "types": "dist/types.d.ts",
+    "types": "dist/index.d.ts",
     "scripts": {
         "prebuild": "rimraf dist",
         "build": "microbundle",

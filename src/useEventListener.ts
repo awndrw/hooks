@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEvent } from './useEvent';
-import { EventName, EventListener } from './types';
+import { EventName, EventListener } from './events';
 
 export const useEventListener = <
     K extends EventName<HTMLElementEventMap>,
