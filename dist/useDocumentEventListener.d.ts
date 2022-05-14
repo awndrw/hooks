@@ -1,2 +1,2 @@
-import { EventListener } from './events';
-export declare const useDocumentEventListener: <K extends keyof DocumentEventMap>(eventName: K, listener: EventListener<DocumentEventMap, K>) => void;
+import { EventListener } from '@wiggindev/utils';
+export declare const useDocumentEventListener: <K extends string>(eventName: K, listener: EventListener<DocumentEventMap, K>) => void;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEvent } from './useEvent';
-import { EventName, EventListener } from './events';
+import { events, EventName, EventListener } from '@wiggindev/utils';
 
 export const useEventListener = <
     K extends EventName<HTMLElementEventMap>,
@@ -16,7 +16,7 @@ export const useEventListener = <
         if (!node || !node.addEventListener) {
             return;
         }
-        node.addEventListener(eventName, stableListener);
-        return () => node.addEventListener(eventName, stableListener);
+        events.element.on(node, eventName, stableListener);
+        return () => events.element.off(node, eventName, stableListener);
     }, [element, eventName, stableListener]);
 };

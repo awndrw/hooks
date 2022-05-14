@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
             ["@typescript-eslint/parser", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
+            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:4.0.0"],\
@@ -3039,6 +3040,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
             ["@typescript-eslint/parser", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
+            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:4.0.0"],\
@@ -3052,6 +3054,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@wiggindev/utils", [\
+        ["npm:0.1.3", {\
+          "packageLocation": "./.yarn/cache/@wiggindev-utils-npm-0.1.3-653042d762-d797a2eb3d.zip/node_modules/@wiggindev/utils/",\
+          "packageDependencies": [\
+            ["@wiggindev/utils", "npm:0.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/@wiggindev-utils-virtual-da8c9e1e29/0/cache/@wiggindev-utils-npm-0.1.3-653042d762-d797a2eb3d.zip/node_modules/@wiggindev/utils/",\
+          "packageDependencies": [\
+            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["abbrev", [\

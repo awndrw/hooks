@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEvent } from './useEvent';
-import { EventName, EventListener } from './events';
+import { events, EventName, EventListener } from '@wiggindev/utils';
 
 export const useDocumentEventListener = <K extends EventName<DocumentEventMap>>(
     eventName: K,
@@ -11,7 +11,7 @@ export const useDocumentEventListener = <K extends EventName<DocumentEventMap>>(
         if (!document || !document.addEventListener) {
             return;
         }
-        document.addEventListener(eventName, stableListener);
-        return () => document.addEventListener(eventName, stableListener);
+        events.document.on(eventName, stableListener);
+        return () => events.document.off(eventName, stableListener);
     }, [eventName, stableListener]);
 };

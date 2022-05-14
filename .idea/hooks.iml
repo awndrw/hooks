@@ -8,7 +8,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="newportfolio" />
-    <orderEntry type="module" module-name="event-listener" />
+    <orderEntry type="module" module-name="utils" />
   </component>
 </module>

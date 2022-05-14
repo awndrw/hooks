@@ -1,2 +1,2 @@
-import { EventListener } from './events';
-export declare const useWindowEventListener: <K extends keyof WindowEventMap>(eventName: K, listener: EventListener<WindowEventMap, K>) => void;
+import { EventListener } from '@wiggindev/utils';
+export declare const useWindowEventListener: <K extends string>(eventName: K, listener: EventListener<WindowEventMap, K>) => void;
