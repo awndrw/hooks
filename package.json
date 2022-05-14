@@ -7,6 +7,10 @@
         "email": "andrew@wiggin.dev",
         "url": "https://wiggin.dev"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wiggindev/hooks.git"
+    },
     "type": "module",
     "source": "src/index.ts",
     "exports": {

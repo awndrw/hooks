@@ -1,6 +1,6 @@
 import React from 'react';
-import { useEvent } from './useEvent';
 import { events, EventName, EventListener } from '@wiggindev/utils';
+import { useEvent } from './useEvent';
 
 export const useEventListener = <
     K extends EventName<HTMLElementEventMap>,

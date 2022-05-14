@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
             ["@typescript-eslint/parser", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
-            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
+            ["@wiggindev/utils", "npm:0.2.4"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:4.0.0"],\
@@ -3040,7 +3040,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
             ["@typescript-eslint/parser", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:5.23.0"],\
-            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
+            ["@wiggindev/utils", "npm:0.2.4"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:4.0.0"],\
@@ -3057,23 +3057,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wiggindev/utils", [\
-        ["npm:0.1.3", {\
-          "packageLocation": "./.yarn/cache/@wiggindev-utils-npm-0.1.3-653042d762-d797a2eb3d.zip/node_modules/@wiggindev/utils/",\
+        ["npm:0.2.4", {\
+          "packageLocation": "./.yarn/cache/@wiggindev-utils-npm-0.2.4-7245fcb53d-8d9164a6b8.zip/node_modules/@wiggindev/utils/",\
           "packageDependencies": [\
-            ["@wiggindev/utils", "npm:0.1.3"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3", {\
-          "packageLocation": "./.yarn/__virtual__/@wiggindev-utils-virtual-da8c9e1e29/0/cache/@wiggindev-utils-npm-0.1.3-653042d762-d797a2eb3d.zip/node_modules/@wiggindev/utils/",\
-          "packageDependencies": [\
-            ["@wiggindev/utils", "virtual:7b2992517cd6687642c3381718c989874f1749a6ed689dba3897fbba3e31d244284873d1338128304112fa86aa7b175aceab2916b6835d1ca119679965370ddb#npm:0.1.3"],\
-            ["@types/react", "npm:18.0.9"],\
-            ["react", null]\
-          ],\
-          "packagePeers": [\
-            "@types/react",\
-            "react"\
+            ["@wiggindev/utils", "npm:0.2.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3335,7 +3322,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autoprefixer", "virtual:04e6b20ee4efca7f4d5adb78ee3a4e9a947dc9eb394dad03649038a08efb86e9f59478ad3970ed97d70f99c408839735e4e0ae12268f9f1b45eab925036abfc6#npm:10.4.7"],\
             ["@types/postcss", null],\
             ["browserslist", "npm:4.20.3"],\
-            ["caniuse-lite", "npm:1.0.30001340"],\
+            ["caniuse-lite", "npm:1.0.30001341"],\
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
@@ -3537,7 +3524,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.20.3-d7ff9d00b4-1e4b719ac2.zip/node_modules/browserslist/",\
           "packageDependencies": [\
             ["browserslist", "npm:4.20.3"],\
-            ["caniuse-lite", "npm:1.0.30001340"],\
+            ["caniuse-lite", "npm:1.0.30001341"],\
             ["electron-to-chromium", "npm:1.4.137"],\
             ["escalade", "npm:3.1.1"],\
             ["node-releases", "npm:2.0.4"],\
@@ -3626,7 +3613,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["caniuse-api", "npm:3.0.0"],\
             ["browserslist", "npm:4.20.3"],\
-            ["caniuse-lite", "npm:1.0.30001340"],\
+            ["caniuse-lite", "npm:1.0.30001341"],\
             ["lodash.memoize", "npm:4.1.2"],\
             ["lodash.uniq", "npm:4.5.0"]\
           ],\
@@ -3634,10 +3621,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["caniuse-lite", [\
-        ["npm:1.0.30001340", {\
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001340-5ba8569de6-5b419c93cb.zip/node_modules/caniuse-lite/",\
+        ["npm:1.0.30001341", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001341-7125d57b54-7262b093fb.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
-            ["caniuse-lite", "npm:1.0.30001340"]\
+            ["caniuse-lite", "npm:1.0.30001341"]\
           ],\
           "linkType": "HARD"\
         }]\
